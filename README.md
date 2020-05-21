@@ -3,6 +3,7 @@ Image Text Detection
 
 Using deep learning models like EAST text detector and Tesseract OCR we implemented an image text detector for detecting bib no.s associated with pictures and videos of marathon runners
 
+Check Project branch for all the files
 
 Instructions after you've downloaded the file on your computer:
 
