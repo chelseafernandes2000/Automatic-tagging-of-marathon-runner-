@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<style>
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.inner{
+	height: 85%;
+	width: 60%;
+	position: absolute;
+	top: 65px;
+	left: 20%;
+	transformation: translate(-50%, -50%);
+	box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+
+.marathon{
+	width: 70%;
+	height: 70%;
+	padding: 40px 60px;
+	color: #FFF;
+}
+.marathon p{
+	color: #0f0c29;
+	font-family: Times New Roman;
+	font-size: 45px;
+}
+.marathon img{
+	width:100%;
+	height: 100%;
+}
+.user-form{
+    /*background-image: linear-gradient(to right top, #8e9eab,#9bc5c3, #8e9eab);*/
+    background-image: linear-gradient(to right top,#0f2027, #203a43, #2c5364);
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.user-form h1{
+	color: #fff;
+	left: 10%;
+	padding: 20px;
+    margin: 5px 0px;
+    font-weight: 70;
+}
+.signup-field{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 8px 10px;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.btn{
+    color: #0f2027;
+width: 50%;
+padding: 10px;
+border-radius: 20px;
+font-size: 17px;
+margin: 10px 0;
+border: none;
+outline: none;
+cursor: pointer;
+/*background-image: linear-gradient(to right top,#0f2027, #203a43, #2c5364);*/
+background-image: linear-gradient(to right top, #c9d6ff, #e2e2e2);
+
+background-color: #1c8adb;
+}
+
+a{
+text-decoration: none;
+}
+
+
+@media(max-width: 665px)
+{
+    .marathon{
+        display: none;
+    }
+    .user-form{
+        width: 100%;
+        border-radius: 10px;
+        }
+}
+
+@media screen and (max-width:990px) and (min-width: 665px){
+    .btn{
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        }
+}
+
+</style>
+
+<div class ="inner">
+    <div class="marathon">
+        <img src="http://www.pngmart.com/files/4/Race-PNG-Transparent.png">
+		<br>
+		<b><center><p>Bib No. Detection System</p></center></b>
+    </div>
+    <div class="user-form">
+        <h1>Sign Up</h1>
+
+        <form action="" method ="POST">
+			<input type="text" class="signup-field" value="" placeholder="First name" name="fname">
+	<input type="text" class="signup-field" value="" placeholder="Last Name" name="lname">
+
+	<input type="text" class="signup-field" value="" placeholder="Username" name="username">
+	<input type="email" class="signup-field" value="" placeholder="Email" name="email">
+
+	<input type="text" class="signup-field" value="" placeholder="Phone" name="phone">
+	<input type="password" class="signup-field" value="" placeholder="Password" name="password">
+	<br> </br>
+            <center>
+                <input type="submit" value="Register" class="btn" >
+			<br><br>
+				<p style="font-family:Palatino ;color:#cdc9c9;font-size:20px">Already a Member ? <b><i><a style="font-family:Palatino ;color:#e60000;font-size:21px" href="http://127.0.0.1:5000/ ">Login<a/></b></p>
+                </center>
+	</form>
+
+</div>
+
+
+<br></br>
+
+
+	</div>
+</body>
+</html>

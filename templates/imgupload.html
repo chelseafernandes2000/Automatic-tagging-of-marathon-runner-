@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Upload Image</title>
+</head>
+
+<body>
+
+<style>
+body{
+    margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background: url(M.jpg);*/
+	background: #F3FBFE;
+	background-image: url('http://www.pngall.com/wp-content/uploads/2/Marathon-PNG-Picture.png');
+	/*background-image: linear-gradient(to right top,#000000,#434343,#000000);*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+   /*background-image: url("M.jpg");*/
+	}
+
+table {
+       border-collapse: collapse;
+       color: white;
+       width: 100%;
+       margin-left:5%;
+       margin-right:5%;
+       margin-top:6%;
+       font-family: "Times New Roman";
+       font-size: 22px;
+       }
+.inner{
+	height: 70%;
+	width: 40%;
+	background: #FCFEFD;
+	top: 75px;
+	left: 15%;
+	background: rgba(0,0,0,.8);
+	transformation: translate(-50%, -50%);
+	box-shadow: 10px 10px 68px -6px rgba(0,0,0,0.);
+	border-radius: 10px;
+}
+
+td {
+       text-align:center;
+       border = 4px;
+       padding:30px;
+    }
+
+p {
+       color:white;
+  }
+
+.button {
+     background-color: #FFFFE0;
+     border:2px solid #FFE4E1;
+     color: black;
+     padding: 15px 30px;
+     border-radius: 2px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     box-shadow: 3px 3px #999;
+     font-family: "Times New Roman";
+     font-size: 16px;
+     cursor: pointer;
+}
+.button:active {
+      background-color: #32A5C2;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+}
+.button:hover {
+       background-color: #32A5C2;
+       color: white;
+}
+
+.bg-nav{
+    /*background: linear-gradient(to right top,#ADA996, #F2F2F2,#DBDBDB, #EAEAEA);*/
+	text-align: right;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #32A5C2;
+  color: white;
+}
+
+</style>
+
+<div class="bg-nav p-2 mb-2 shadow-sm ">
+      <a class="btn btn-outline-primary" href="/logout">Logout</a>
+    </div>
+
+<div class="topnav">
+  <a class="active" href="http://127.0.0.1:5000/imgupload ">Image</a>
+  <a href="http://127.0.0.1:5000/videoupload">Video</a>
+  <a href="http://127.0.0.1:5000/webcam">Webcam</a>
+
+</div>
+
+
+<center>
+
+</br></br></br>
+
+    <div class="inner">
+    </br></br>
+    <p style="color: #d1eeee; font-family:Times New Roman; font-size:40px">Upload an Image</p>
+
+        <form id="upload_form" action="{{url_for('imgupload')}}" method="post" enctype="multipart/form-data">
+            <table >
+                    <td>Select Image:</td>
+                    <td> <input type="file" name="file" accept="images/*" /><br></td>
+                </tr>
+            </table>
+        </br>
+        <br><input type="submit" value="UPLOAD" class="button" /></br>
+            </br></br>
+
+        </form>
+</div>
+</center>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
