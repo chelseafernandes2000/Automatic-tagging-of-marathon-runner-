@@ -13,7 +13,7 @@ This folder is used to store all the images and video files upload by user.
 <b> 4. 4digit: </b><br>
 This folder consists some 4-digit bib numbered images for testing.
 
-Software Documentation.docx is the official documentation of the project and Automatic tagging of Marathon Runners.pptx is the presentation to understand the concepts more deeply.
+Documentation.docx is the official documentation of the project and Automatic tagging of Marathon Runners.pptx is the presentation to understand the concepts more deeply.
 
 Instructions after you've cloned the repo on your computer:
 
@@ -30,6 +30,6 @@ The project uses the front end framework Flask so, To run flask:
 3. Use the URL as given to open it in any browser
 4. Do not close CMD if you want the project to be running
 
-For more details and to see screenshots of working model, check Software Documentation.docx
+For more details and to see screenshots of working model, check Documentation.docx
 
 
