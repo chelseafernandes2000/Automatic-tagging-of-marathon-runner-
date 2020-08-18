@@ -21,6 +21,10 @@ This folder consists some 4-digit bib numbered images for testing.
 
 Documentation.docx is the official documentation of the project and Automatic tagging of Marathon Runners.pptx is the presentation to understand the concepts more deeply.
 
+Architecture Of our system:
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/Architecture.jpg height=550 width=200 />
+
 Instructions after you've cloned the repo on your computer:
 
 1. Pip Install all that is imported
@@ -38,4 +42,40 @@ The project uses the front end framework Flask so, To run flask:
 
 For more details and to see screenshots of working model, check Documentation.docx
 
+Snapshots:
 
+1. Sign_up
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/sign_up.png height=300 width=450 />
+
+2. login page
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/login%20page.png height=300 width=450 />
+
+3. Image Upload
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/img_upload.png height=300 width=450 />
+
+4. Video Upload
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/video_upload.png height=300 width=450 />
+
+5. Webcam
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/webcam.png height=300 width=450 />
+
+6. Image Result
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/result_1.png height=300 width=450 />
+
+7. Video Result
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/video_result.png height=300 width=450 />
+
+8. Webcam result
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/webcam_result.png height=300 width=450 />
+
+9. Real time monitoring in output excel sheet
+
+<img src=https://github.com/chelseafernandes2000/Automatic-tagging-of-marathon-runner-/blob/project/Output%20Snapshots/output_excel_sheet.png height=300 width=450 />
